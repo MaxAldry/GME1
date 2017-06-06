@@ -27,3 +27,5 @@ class FtpConnection {
  
 }
  
+$connessione = new FtpConnection();
+$connessione->setupConnection();
