@@ -21,7 +21,7 @@ class FtpConnection {
     public function setupConnection() {
     
         $this->connId = ftp_connect($ftpServer);
-        $this->loginResult = ftp_login($conn_id, $ftpUserName, $ftpPassword)
+        $this->loginResult = ftp_login($conn_id, $ftpUserName, $ftpPassword);
     
     }
  
